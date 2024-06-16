@@ -1,0 +1,10 @@
+name: My Test Helix App
+description: This is a test Helix app
+assistants:
+- name: Helix
+  description: This is an example assistant that can respond to Discord messages
+triggers:
+  - name: Discord
+    description: This trigger listens for messages in a Discord channel
+    type: discord
+    # Token is provided as an environment variable to the Helix server
